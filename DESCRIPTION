@@ -1,0 +1,32 @@
+Package: SEO
+Type: Package
+Title: SERP Tracker.THE Tools for Web Ranking Analysis
+Version: 0.1.1
+Author: vincent guyader
+Maintainer: vincent guyader <vincent@thinkr.fr>
+Description: serp tracker. get search engine results page on google. follow your url positions in time, track your competitor.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rvest,
+    dplyr,
+    magrittr,
+    stringr,
+    R.cache,
+    RSQLite,
+    DBI,
+    dygraphs,
+    ggplot2,
+    xml2,
+    xts,
+    zoo,
+    reshape2,
+    lubridate,
+    assertthat,
+    rhandsontable,
+    shinyjs,
+    shiny
+RoxygenNote: 5.0.1
+Remotes:
+    Ather-Energy/ggTimeSeries
