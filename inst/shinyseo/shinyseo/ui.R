@@ -8,11 +8,13 @@ library(rhandsontable)
 
 fluidPage(
   useShinyjs(), # on active shinyjs
-  titlePanel("Positionnement google")
+  titlePanel("Shiny SEO"),
+  tabsetPanel(
+    tabPanel("research",
+             titlePanel("Recherches")
+    ),
+    tabPanel("site",
+             titlePanel("Sites")
+    )
+  )
 )
-
-
-
-
-
-
